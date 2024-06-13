@@ -24,7 +24,3 @@ git commit -m "agrega una descripcion de los cambios hechos "
 git branch -m main (crea una rama principal)
 git push origin main
 
-Papachin
-
-
-
