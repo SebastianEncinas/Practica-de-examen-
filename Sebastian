@@ -1,0 +1,29 @@
+Paso a Paso GitHub
+1) Loguearse
+git config --global user.name "Nombre del usuario"
+git config --global user.email "gmail"
+
+2) git init (inicia repositorio segun en la carpeta que estes parado, y
+otorga algunos permisos para subir algo al repositorio)
+
+3)Indicar a que repositorio subir el archivo
+para este paso necesitamos saber si hay otro link con el comando.
+git remote -v
+y con el siguiente comando lo borramos. 
+git remote remove origin 
+y con este comando subiremos un link que es donde van a subirse las cosas que
+necesitamos subir.
+git remote add origin "link" 
+
+git status
+verifica en que estado esta el archivo
+
+4)Paso de guardado
+git add "Nombre del archivo"
+git commit -m "agrega una descripcion de los cambios hechos "
+git branch -m main (crea una rama principal)
+git push origin main
+
+
+
+
